@@ -25,6 +25,7 @@
     [btn setTitleColor:[UIColor grayColor] forState:UIControlStateHighlighted];
     [btn addTarget:self action:@selector(changeOption) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    NSLog(@"修复V1的bug");
     
 }
 -(void)changeOption{
