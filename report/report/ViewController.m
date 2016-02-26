@@ -26,6 +26,7 @@
     [btn addTarget:self action:@selector(changeOption) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     NSLog(@"修复V1的bug");
+    NSLog(@"新加代码一");
     
 }
 -(void)changeOption{
