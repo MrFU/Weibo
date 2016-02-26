@@ -25,9 +25,13 @@
     [btn setTitleColor:[UIColor grayColor] forState:UIControlStateHighlighted];
     [btn addTarget:self action:@selector(changeOption) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
     NSLog(@"修复V1的bug");
     
+    NSLog(@"新加代码一");
+    
     NSLog(@"发布的版本1");
+    
     NSLog(@"开发的2.0版本");
     
 }
