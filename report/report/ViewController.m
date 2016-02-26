@@ -34,6 +34,9 @@
     
     NSLog(@"开发的2.0版本");
     
+    NSLog(@"git客户端");
+    
+    
 }
 -(void)changeOption{
     RP_AnalysisTerminal *vc = [[RP_AnalysisTerminal alloc]init];
