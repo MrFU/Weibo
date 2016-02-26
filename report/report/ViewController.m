@@ -26,6 +26,8 @@
     [btn addTarget:self action:@selector(changeOption) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
     
+    NSLog(@"发布的版本1");
+    
 }
 -(void)changeOption{
     RP_AnalysisTerminal *vc = [[RP_AnalysisTerminal alloc]init];
