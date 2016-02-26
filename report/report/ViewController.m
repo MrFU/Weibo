@@ -27,6 +27,7 @@
     [self.view addSubview:btn];
     
     NSLog(@"发布的版本1");
+    NSLog(@"开发的2.0版本");
     
 }
 -(void)changeOption{
